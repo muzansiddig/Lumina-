@@ -1,0 +1,8 @@
+{
+  "name": "Believer",
+  "description": "An intelligent educational platform converting files into interactive learning experiences using Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
