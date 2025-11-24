@@ -1,20 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Lumina 
 
-This contains everything you need to run your app locally.
+**Tagline:** Transforming static content into interactive learning experiences.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1HEAQSsKvluiCynDx5A7eFPdb6nqeR5SJ
+---
 
-## Run Locally
+## Overview
 
-**Prerequisites:**  Node.js
+Lumina is a local-first, AI-powered educational platform designed to turn documents, images, and videos into structured, interactive learning experiences. It provides personalized guidance through AI teacher personas, smart study plans, quizzes, and a floating AI companion. The platform prioritizes privacy, accessibility, and a high-end academic aesthetic.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+- **AI Teacher Personas:** Lumina, Socrates, Dr. Feynman, Ada, Maya — each offers a unique teaching style.
+- **Document Intelligence:** Upload files for automatic metadata extraction, summaries, key points, and learning objectives.
+- **Smart Study Plans:** Generate structured study schedules based on content complexity.
+- **Interactive Quizzes:** On-demand multiple-choice questions for knowledge checks.
+- **Floating AI Companion:** Context-aware chat with multimodal support (text, images, voice).
+- **Profile & Gamification:** Track progress, activity, and tasks in a clean dashboard.
+- **Library Management:** Organize content by type and source, with progress tracking.
+- **Privacy First:** Local-first data handling simulated via browser storage; user data ownership is prioritized.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React 19 + TypeScript
+- **Styling:** Tailwind CSS (custom typography & UI effects)
+- **AI Engine:** Google Gemini API (@google/genai SDK)
+- **State Management:** React Context API
+- **Routing:** react-router-dom (HashRouter)
+- **Icons:** lucide-react
+- **Persistence:** localStorage (simulated local database)
+- **Design Language:** Material Design 3, "Stone & Slate" luxury aesthetic
+
+---
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/lumina.git
+cd lumina
+````
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for bug fixes, feature enhancements, or improvements.
+
+---
+
+## License
+
+[MIT License](LICENSE)
